@@ -1,0 +1,236 @@
+.container {
+    width: 1440px;
+    margin: auto;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.bg-grey {
+    background-color: #FAFAFA;
+}
+
+.base-info {
+    margin-top: 50px;
+    display: inline-flex;
+    align-items: flex-start;
+    gap: 14px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.info-title {
+    color: var(--Surface-surface-brand-primary, #1C4B82);
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.info {
+    width: 70%;
+    padding: 25px 20px;
+    display: flex;
+    gap: 25px;
+    border-radius: 10px;
+}
+
+.info-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    flex: 1 0 0;
+    align-self: stretch;
+}
+
+.info-field {
+    font-weight: 600;
+}
+
+.info-name {
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.info-item {
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    align-self: stretch;
+}
+
+.info-item.job {
+    margin-top: 16px;
+}
+
+.info-item div {
+    width: 35%;
+    margin-top: 16px;
+}
+
+.line-space {
+    width: 100%;
+    height: 1px;
+    background-color: #A8A8A8;
+    margin: 30px 0;
+}
+
+.info-detail {
+    margin-bottom: 50px;
+}
+
+.info-detail.info {
+    display: block;
+}
+
+.info-list {
+    padding: 0 20px;
+}
+
+.info-list li {
+    padding-top: 16px;
+}
+
+.text-detail {
+    padding-top: 16px;
+    font-size: 16px;
+    line-height: 24px;
+
+}
+
+.button-primary {
+    display: flex;
+    width: 413px;
+    height: 55px;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 5px;
+    background: var(--Button-button-primary, #DD6B4D)
+}
+
+.button-primary span {
+    color: var(--Text-text-secondary, #FFF);
+    font-weight: 700;
+
+}
+.button-primary.seccon {
+    border-radius: 5px;
+border: 2px solid var(--Surface-surface-brand-primary, #1C4B82);
+background: var(--Button-button-primary,#fff)
+
+}
+.button-primary.seccon span {
+    color: var(--Text-text-brand-primary, #1C4B82);
+
+}
+
+.button-primary.seccon.search {
+    width: 175px;
+    background: var(--Button-button-primary,#fff)
+}
+.button-primary.search {
+    width: 200px;
+    background: var(--Button-Button---brand, #1C4B82);
+
+}
+.btn-search {
+    display: flex;
+    padding: 16px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+    width: 167px;
+    border: none;
+    border-radius: 5px;
+    background: var(--Button-button-primary, #DD6B4D);
+    color: var(--Text-text-secondary, #FFF);
+    font-weight: 700;
+}
+.register-button {
+    display: flex;
+    gap: 20px;
+    margin: auto;
+    justify-content: center;
+}
+.s003 {
+  
+    min-height: 259px;
+    display: -ms-flexbox;
+    margin: auto;
+    display: flex;
+    -ms-flex-align: center;
+    flex-direction: column;
+    align-content: center;
+    flex-wrap: wrap;
+    padding-top: 50px;
+    box-shadow: 0px 2px 25px 0px rgba(0, 0, 0, 0.10);
+}
+
+.s003 form {
+    width: 1080px;
+    margin-bottom: 0;
+}
+
+.s003 form .inner-form {
+    background: #fff;
+    display: -ms-flexbox;
+    display: flex;
+    width: 100%;
+    -ms-flex-pack: justify;
+    justify-content: flex-start;
+    -ms-flex-align: center;
+    align-items: center;
+    box-shadow: 0px 8px 20px 0px rgba(0, 0, 0, 0.15);
+    border-radius: 3px;
+}
+
+.s003 form .inner-form .input-field {
+    height: 48px;
+}
+
+.s003 form .inner-form .input-field input {
+    height: 100%;
+    background: transparent;
+    border: 0;
+    display: block;
+    width: 100%;
+    padding: 10px 32px;
+    color: #555;
+}
+
+.s003 .input-select {
+    position: relative;
+    display: flex;
+    height: 100%;
+}
+.input-field.second-wrap {
+    width: 400px;
+}
+.s003 .input-select select {
+    color: var(--Text-text-subtitle, #7D7D7D);
+   text-align: center;
+    border: none;
+    appearance: none;
+    min-width: 200px;
+    height: 100%;
+}
+
+.s003 .input-select::after {
+    content: '';
+    width: 1px;
+    height: 24px;
+    background: var(--Line-line, #A8A8A8);
+    position: absolute;
+    right: 0;
+    top: 25%;
+}
+.s003 .input-select select:focus,
+.s003 input:focus-visible {
+    border: none !important;
+    outline: none
+}
+.logo-drop {
+    padding: 11px 16px;
+}
