@@ -1,0 +1,71 @@
+.container-header {
+    background-color: #1c4b82;
+    display: flex;
+    color: #fff;
+    width: 1920px;
+    height: 104px;
+    padding: 0 72px;
+    justify-content: space-between;
+    align-items: center;
+    font-family: inter;
+    font-weight: 600 !important;
+    font-size: 16px !important;
+}
+
+.list-item {
+    display: flex;
+    width: 1090px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.list-item {
+    list-style: none;
+    padding: 12px 0;
+    line-height: 31.18px;
+    gap: 8px;
+}
+
+.container-logo-header {
+    padding: 8px 16px;
+    gap: 8px;
+    display: flex;
+}
+
+.logo-header {
+    width: 212.95px;
+    height: 32px;
+}
+
+.iconCheckDow {
+    width: 24px;
+    height: 24px;
+    gap: 6px;
+}
+
+.list-btn {
+    width: 280px;
+    height: 51px;
+    gap: 16px;
+    display: flex;
+}
+
+.btn-register {
+    background-color: #1c4b82;
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+.btn-login {
+    background-color: #dd6b4d;
+    border: 1px solid #dd6b4d;
+    color: #fff;
+}
+
+.btn-header {
+    width: 132px;
+    height: 51px;
+    padding: 16px 24px 16px 24px;
+    border-radius: 15px;
+    opacity: 0px;
+}
